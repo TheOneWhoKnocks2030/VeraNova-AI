@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VeraNova AI - Inteligencia de Medios</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- HERO -->
+  <header class="relative bg-gradient-to-r from-blue-900 to-blue-600 text-white">
+    <div class="relative max-w-7xl mx-auto px-6 py-28 text-center">
+      <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight">
+        VeraNova AI
+        <span class="block text-blue-200">Accelerating Open Source Intelligence Research</span>
+      </h1>
+      <p class="mt-6 text-lg sm:text-xl max-w-3xl mx-auto text-blue-100">
+        Plataforma de inteligencia de medios impulsada por IA para investigadores y analistas que necesitan resultados rápidos, precisos y multilingües.
+      </p>
+      <a href="#contacto" class="mt-8 inline-block text-blue-100 hover:text-white font-semibold underline transition">
+        Contáctanos
+      </a>
+    </div>
+  </header>
+
+  <!-- BENEFICIOS -->
+  <section class="py-20 max-w-7xl mx-auto px-6">
+    <div class="grid md:grid-cols-3 gap-12 text-center">
+      <!-- Bloque 1 -->
+      <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition">
+        <div class="flex justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21H5a2 2 0 01-2-2V7a2 2 0 012-2h4l2-2h2l2 2h4a2 2 0 012 2v12a2 2 0 01-2 2z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2 text-blue-900">Agregación Multicanal</h3>
+        <p class="text-gray-600">Centraliza noticias, redes sociales y documentos en un solo lugar.</p>
+      </div>
+      <!-- Bloque 2 -->
+      <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition">
+        <div class="flex justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.343-3 3v1H8v2h1v1a3 3 0 006 0v-1h1v-2h-1v-1c0-1.657-1.343-3-3-3z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2 text-blue-900">Resumen y Traducción Automática</h3>
+        <p class="text-gray-600">Rompe barreras de idioma con traducciones instantáneas y resúmenes inteligentes.</p>
+      </div>
+      <!-- Bloque 3 -->
+      <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition">
+        <div class="flex justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h13M9 11l3-3m0 0l3 3m-3-3v12"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2 text-blue-900">Visualización de Entidades</h3>
+        <p class="text-gray-600">Descubre conexiones clave entre personas, organizaciones y eventos.</p>
+      </div>
+    </div>
+  </section>
+      
+  <!-- PROPÓSITO -->
+  <section class="py-20 bg-white border-t border-gray-200">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6 text-blue-900">Nuestro Propósito</h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        En VeraNova AI creemos que la información es poder, pero el exceso de datos puede convertirse en un obstáculo. 
+        Nuestro propósito es ayudar a analistas e investigadores a 
+        <span class="font-semibold">transformar grandes volúmenes de información en conocimiento accionable</span>. 
+        Con algoritmos de inteligencia artificial diseñados para OSINT, aceleramos la revisión de documentos, 
+        rompemos barreras de idioma y <span class="font-semibold">hacemos visibles las conexiones ocultas</span> entre 
+        actores, eventos y lugares. 
+        De esta manera, potenciamos investigaciones más rápidas, rigurosas y con impacto real.
+      </p>
+    </div>
+  </section>
+
+  
+  <!-- CONTACTO -->
+  <section id="contacto" class="bg-gray-100 py-20 border-t border-gray-200">
+    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <!-- Texto -->
+      <div>
+        <h2 class="text-3xl font-bold mb-4 text-blue-900">Hablemos de tu investigación</h2>
+        <p class="text-gray-600 mb-6">Completa el formulario y nos pondremos en contacto contigo. Nos aseguraremos de responder lo antes posible.</p>
+        <ul class="text-gray-700 space-y-2">
+        </ul>
+      </div>
+      
+      <!-- Formulario -->
+      <div class="bg-white p-8 rounded-lg shadow-lg">
+        <form action="https://formspree.io/f/mblajdkk" method="POST" class="space-y-6">
+          <div>
+            <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required
+              class="mt-1 block w-full border border-gray-300 rounded-lg shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-700">Tu Email</label>
+            <input type="email" id="email" name="email" required
+              class="mt-1 block w-full border border-gray-300 rounded-lg shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500">
+          </div>
+          <div>
+            <label for="mensaje" class="block text-sm font-medium text-gray-700">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required
+              class="mt-1 block w-full border border-gray-300 rounded-lg shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500"></textarea>
+          </div>
+          <button type="submit"
+            class="w-full bg-gradient-to-r from-blue-700 to-blue-500 hover:from-blue-800 hover:to-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition">
+            Enviar Mensaje
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-900 text-gray-300 py-10 mt-10">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-center md:text-left">
+      <div>
+    <div class="mt-8 text-center border-t border-blue-800 pt-6">
+      <p>&copy; 2025 VeraNova AI. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
